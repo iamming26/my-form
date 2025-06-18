@@ -74,6 +74,15 @@ const barangJson = [
     { "id":89900085, "sku": "TTP01", "desc": "WRP12 70SX3X6 BNF 100PE C45 TTP01", "nw": 2.72, "volume": 0.048},
     { "id":89900184, "sku": "TTP02", "desc": "WRS12 100sx24 BNF 201  TTP02", "nw": 5.82, "volume": 0.106},
     { "id":89900218, "sku": "TTP03", "desc": "WRP12 100sx2x12 BNF 201  TTP03", "nw": 5.82, "volume": 0.09},
+    
+    //NEW ITEM
+    { "id":89900255, "sku": "MP01PA", "desc": "FSP22 260SX2X20 BNE 100 MP01PA", "nw": 9.60, "volume": 0.067},
+    { "id":89900254, "sku": "TP09TS", "desc": "FTV13 80SX48 BNE 200FM TP09TS", "nw": 5.020, "volume": 0.038},
+    { "id":89900256, "sku": "THSN03", "desc": "WIF12 250SX15 BNP201 THSN03", "nw": 6.68, "volume": 0.058},
+    { "id":89900257, "sku": "TPC08", "desc": "FHS13 10SX6X48 BNB 201 TPC08", "nw": 5.18, "volume": 0.040},
+    { "id":89900258, "sku": "TP05", "desc": "FTV13 50SX48 BNE 201 TP05", "nw": 3.48, "volume": 0.025},
+    { "id":89900259, "sku": "TP23", "desc": "FTV13 80SX48 ALE 200FM TP23", "nw": 5.57, "volume": 0.036},
+    { "id":89900259, "sku": "PB18", "desc": "TPWC14 160SX2X32 BNO 201 C45 PB18", "nw": 7.00, "volume": 0.082},
 ];
 
 // view list in dropdown
