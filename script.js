@@ -83,6 +83,8 @@ const barangJson = [
     { "id":89900258, "sku": "TP05", "desc": "FTV13 50SX48 BNE 201 TP05", "nw": 3.48, "volume": 0.025},
     { "id":89900259, "sku": "TP23", "desc": "FTV13 80SX48 ALE 200FM TP23", "nw": 5.57, "volume": 0.036},
     { "id":89900259, "sku": "PB18", "desc": "TPWC14 160SX2X32 BNO 201 C45 PB18", "nw": 7.00, "volume": 0.082},
+    { "id":89900270, "sku": "MP01", "desc": "FSP22 260SX40 BNE 100 MP01", "nw": 9.60, "volume": 0.067},
+    
 ];
 
 // view list in dropdown
