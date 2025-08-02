@@ -1,6 +1,6 @@
 // list item file JSON
 const barangJson = [
-    { "id":89900195, "sku": "KF03", "desc": "FHP53 8SX16X3X20 BNN 100FM KF03", "nw": 9.95, "volume": 0.078},
+    // { "id":89900195, "sku": "KF03", "desc": "FHP53 8SX16X3X20 BNN 100FM KF03", "nw": 9.95, "volume": 0.078},
     { "id":89900058, "sku": "KF70", "desc": "FRF42 1000GX16 CNE 100PE KF70", "nw": 16, "volume": 0.104},
     { "id":89900054, "sku": "KF71", "desc": "FTV42 50SX80 BNE 100PE KF71", "nw": 3.79, "volume": 0.03},
     { "id":89900059, "sku": "KF72", "desc": "FRF42 400GX32 BNE 100PE KF72", "nw": 12.8, "volume": 0.093},
@@ -8,16 +8,17 @@ const barangJson = [
     { "id":89900090, "sku": "KT08", "desc": "WIF42 150SX20 BNP 101PE KT08", "nw": 6.83, "volume": 0.047},
     { "id":89900178, "sku": "KT10", "desc": "WRP52 60sx6x6 BNF 100FM C45 KT10", "nw": 4.6, "volume": 0.088},
     { "id":89900143, "sku": "MHT150PA", "desc": "WIF31 150sx2x10 BNF 100PE MHT150PA", "nw": 5.9, "volume": 0.047},
-    { "id":89900100, "sku": "MJRT700", "desc": "TJR32 700GX16 CNN 100PE C76 MJRT700", "nw": 10.56, "volume": 0.078},
+    { "id":89900083, "sku": "MHT150", "desc": "WIF31 150SX20 BNF 100PE MHT150", "nw": 5.9, "volume": 0.047},
+    // { "id":89900100, "sku": "MJRT700", "desc": "TJR32 700GX16 CNN 100PE C76 MJRT700", "nw": 10.56, "volume": 0.078},
     { "id":89900212, "sku": "MN01B", "desc": "NLC 21 100Sx6x10 BNF 100 MN01B", "nw": 4.86, "volume": 0.104},
     { "id":89900213, "sku": "MN01MUB", "desc": "NLC 21 100Sx6x10 BNF 100 MN01 MUB", "nw": 4.86, "volume": 0.104},
-    { "id":89900039, "sku": "MP01", "desc": "FSP22 260SX40 BNE 100PE MP01", "nw": 11.36, "volume": 0.077},
-    { "id":89900040, "sku": "MP01MU", "desc": "FSP22 260SX4X10 BNE 100PE MP01MU", "nw": 11.36, "volume": 0.077},
+    // { "id":89900039, "sku": "MP01", "desc": "FSP22 260SX40 BNE 100PE MP01", "nw": 11.36, "volume": 0.077},
+    // { "id":89900040, "sku": "MP01MU", "desc": "FSP22 260SX4X10 BNE 100PE MP01MU", "nw": 11.36, "volume": 0.077},
     { "id":89900221, "sku": "MP04", "desc": "FRF 600g x 16 CNE 100 MP04", "nw": 9.6, "volume": 0.06},
     { "id":89900056, "sku": "MP08", "desc": "FRF22 1000GX16 BNE 100PE MP08", "nw": 16, "volume": 0.108},
     { "id":89900241, "sku": "MP11", "desc": "FSP22 160SX60 CNE 100PE MP11", "nw": 7.7, "volume": 0.054},
-    { "id":89900222, "sku": "MP11MU", "desc": "FSP22 160sx4x15 CNE 100 MP11MU", "nw": 8.66, "volume": 0.054},
-    { "id":89900228, "sku": "MP11MUG", "desc": "FSP22 160sx4x15 CNE 100 MP11MUG", "nw": 8.66, "volume": 0.054},
+    // { "id":89900222, "sku": "MP11MU", "desc": "FSP22 160sx4x15 CNE 100 MP11MU", "nw": 8.66, "volume": 0.054},
+    { "id":89900228, "sku": "MP11MUG", "desc": "FSP22 160sx4x15 CNE 100 MP11MUG", "nw": 8.66, "volume": 0.056},
     { "id":89900247, "sku": "MP12", "desc": "FSP22 250SX40 CNE 100 MP12", "nw": 8.66, "volume": 0.059},
     { "id":89900159, "sku": "MPH200-48MU", "desc": "FPU32 200sx4x12 CNE 100  MPH200-48MU", "nw": 5.05, "volume": 0.034},
     { "id":89900235, "sku": "MPK200MU", "desc": "NLC21 200sX10X10 CNF 100 MPK200MU", "nw": 7.02, "volume": 0.056},
@@ -35,10 +36,10 @@ const barangJson = [
     { "id":89900018, "sku": "PB23", "desc": "TPWC13 300SX12X8 BNE 100PE C45 PB23", "nw": 12.96, "volume": 0.12},
     { "id":89900081, "sku": "THSN01", "desc": "WIF12 150SX20 BNP 100PE THSN01", "nw": 6.83, "volume": 0.05},
     { "id":89900082, "sku": "THSN02", "desc": "WIF12 150SX20 BNP 201PE THSN02", "nw": 6.83, "volume": 0.05},
-    { "id":89900106, "sku": "TL05MU", "desc": "FBX12 200SX4X8 BNE 300PE TL05MU", "nw": 6.74, "volume": 0.076},
+    // { "id":89900106, "sku": "TL05MU", "desc": "FBX12 200SX4X8 BNE 300PE TL05MU", "nw": 6.74, "volume": 0.076},
     { "id":89900067, "sku": "TM05", "desc": "FBX12 120SX40 BNE 300FM  TM05", "nw": 5.05, "volume": 0.073},
     { "id":89900068, "sku": "TM05MU", "desc": "FBX12 120SX5X8 BNE 300FM  TM05MU", "nw": 5.05, "volume": 0.073},
-    { "id":89900114, "sku": "TM06MU", "desc": "FBX13 120sx5x8 BNE 300FM  TM06MU", "nw": 7.58, "volume": 0.073},
+    // { "id":89900114, "sku": "TM06MU", "desc": "FBX13 120sx5x8 BNE 300FM  TM06MU", "nw": 7.58, "volume": 0.073},
     { "id":89900072, "sku": "TN07", "desc": "NLC11 50SX60 BNF 100PE TN07", "nw": 4.86, "volume": 0.104},
     { "id":89900073, "sku": "TN07MU", "desc": "NLC11 50SX6X10 BNF 100PE TN07MU", "nw": 4.86, "volume": 0.104},
     { "id":89900074, "sku": "TN08", "desc": "NLC11 50SX60 BNF 201PE TN08", "nw": 4.86, "volume": 0.104},
@@ -46,19 +47,19 @@ const barangJson = [
     { "id":89900141, "sku": "TN10PA", "desc": "NDN12 50sx2x12 BNB 100PE TN10PA", "nw": 6.91, "volume": 0.049},
     { "id":89900002, "sku": "TOD02", "desc": "TRS12 180GX64 BNE 100PE C45 TOD02", "nw": 11.52, "volume": 0.101},
     { "id":89900003, "sku": "TOD02MU", "desc": "TRS12 180GX8X8 BNE 100PE C45 TOD02MU", "nw": 11.52, "volume": 0.101},
-    { "id":89900008, "sku": "TOK78", "desc": "TRS52 130SX48 BND 100PE C45 TOK78", "nw": 2.03, "volume": 0.043},
-    { "id":89900009, "sku": "TOK79", "desc": "TRS52 130SX6X8 BND 100PE C45 TOK79", "nw": 2.03, "volume": 0.043},
+    // { "id":89900008, "sku": "TOK78", "desc": "TRS52 130SX48 BND 100PE C45 TOK78", "nw": 2.03, "volume": 0.043},
+    // { "id":89900009, "sku": "TOK79", "desc": "TRS52 130SX6X8 BND 100PE C45 TOK79", "nw": 2.03, "volume": 0.043},
     { "id":89900153, "sku": "TOM02BD", "desc": "TRS22 193sx10x10 BND 100 C45 TOM02BD", "nw": 5.5, "volume": 0.077},
     { "id":89900156, "sku": "TOM02GR", "desc": "TRS22 193sx100 BND 100 C45 TOM02GR", "nw": 5.5, "volume": 0.077},
     { "id":89900000, "sku": "TOT04", "desc": "TRS12 110GX100 BNE 100PE C45 TOT04", "nw": 11, "volume": 0.102},
     { "id":89900231, "sku": "TP02AB", "desc": "FSP12 260SX40 BDE 200FM TP02AB", "nw": 12.07, "volume": 0.082},
     { "id":89900232, "sku": "TP02MUAB", "desc": "FSP12 260SX2X20 BDE 200FM TP02MUAB", "nw": 12.07, "volume": 0.082},
-    { "id":89900181, "sku": "TP02MUC", "desc": "FSP12 260sx2x20 BNE 200FM  TP02MUC", "nw": 14.16, "volume": 0.1},
-    { "id":89900032, "sku": "TP02MUEX", "desc": "FSP12 260sx2x20 BNE 200FM  TP02MUEX", "nw": 12.07, "volume": 0.081},
+    // { "id":89900181, "sku": "TP02MUC", "desc": "FSP12 260sx2x20 BNE 200FM  TP02MUC", "nw": 14.16, "volume": 0.1},
+    // { "id":89900032, "sku": "TP02MUEX", "desc": "FSP12 260sx2x20 BNE 200FM  TP02MUEX", "nw": 12.07, "volume": 0.081},
     { "id":89900036, "sku": "TP06PA", "desc": "FSP12 200SX2X20 CNE 100PE TP06PA", "nw": 9.29, "volume": 0.065},
     { "id":89900216, "sku": "TP06PAC", "desc": "FSP12 200SX2X20 CNE 100 TP06PAC", "nw": 9.29, "volume": 0.062},
     { "id":89900196, "sku": "TP06PAL", "desc": "FSP12 200SX2X20 CNE 100 TP06PAL", "nw": 9.29, "volume": 0.062},
-    { "id":89900215, "sku": "TP06PAN", "desc": "FSP12 200SX2X20 CNE 100 TP06PAN", "nw": 9.29, "volume": 0.065},
+    { "id":89900215, "sku": "TP06PAN", "desc": "FSP12 200SX2X20 CNE 100 TP06PAN", "nw": 9.29, "volume": 0.062},
     { "id":89900198, "sku": "TP07", "desc": "FSP13 120SX40 BNE 201 TP07", "nw": 9.29, "volume": 0.071},
     { "id":89900158, "sku": "TP08", "desc": "FTV13 60sx48 ALE 201  TP08", "nw": 5.02, "volume": 0.035},
     { "id":89900046, "sku": "TP09", "desc": "FTV13 50SX48 BNE 200PE TP09", "nw": 3.76, "volume": 0.029},
@@ -82,7 +83,7 @@ const barangJson = [
     { "id":89900257, "sku": "TPC08", "desc": "FHS13 10SX6X48 BNB 201 TPC08", "nw": 5.18, "volume": 0.040},
     { "id":89900258, "sku": "TP05", "desc": "FTV13 50SX48 BNE 201 TP05", "nw": 3.48, "volume": 0.025},
     { "id":89900259, "sku": "TP23", "desc": "FTV13 80SX48 ALE 200FM TP23", "nw": 5.57, "volume": 0.036},
-    { "id":89900259, "sku": "PB18", "desc": "TPWC14 160SX2X32 BNO 201 C45 PB18", "nw": 7.00, "volume": 0.082},
+    { "id":89900260, "sku": "PB18", "desc": "TPWC14 160SX2X32 BNO 201 C45 PB18", "nw": 7.00, "volume": 0.082},
     { "id":89900270, "sku": "MP01", "desc": "FSP22 260SX40 BNE 100 MP01", "nw": 9.60, "volume": 0.067},
     
 ];
@@ -94,7 +95,7 @@ window.onload = function() {
     barangJson.forEach(barang => {
         const option = document.createElement('option');
         option.value = barang.id;
-        option.textContent = barang.sku;
+        option.textContent = barang.id + ' - ' + barang.sku;
         barangSelect.appendChild(option);
     });
 }
@@ -112,8 +113,13 @@ document.getElementById('po-form').addEventListener('submit', function(event) {
     const jumlah = document.getElementById('jumlah').value;
 
     if (!barangId || jumlah <= 0) {
-        alert('Harap pilih barang dan masukkan jumlah yang valid!');
-        return;
+        Swal.fire({
+        icon: 'warning',
+        title: 'Input tidak valid!',
+        text: 'Harap pilih barang dan masukkan jumlah yang valid.',
+        confirmButtonText: 'OK'
+      });
+      return;
     }
 
     const barang = barangJson.find(b => b.id == barangId);
@@ -170,35 +176,61 @@ document.getElementById('po-form').addEventListener('submit', function(event) {
     editButton.classList.add(...cls);
     editButton.style.minWidth = '100px';
     editButton.textContent = 'Ubah';
-    editButton.onclick = function() {
-        const newQty = prompt('Masukkan jumlah baru:', jumlah);
-        if (newQty && newQty > 0) {
+    editButton.onclick = function () {
+        const jumlah = Number(rowQty.innerText);
 
-            //get old value in row
-            const oldQty = rowQty.innerText;
-            const oldNw = rowNW.innerText;
-            const oldVolume = rowVolume.innerText;
+        Swal.fire({
+            title: 'Edit Jumlah',
+            input: 'number',
+            inputLabel: 'Masukkan jumlah baru:',
+            inputValue: jumlah,
+            inputAttributes: {
+            min: 1,
+            step: 1
+            },
+            showCancelButton: true,
+            confirmButtonText: 'Update',
+            cancelButtonText: 'Batal',
+            reverseButtons: true,
+            didOpen: () => {
+              const input = Swal.getInput();
+              if (input) {
+                  input.focus();
+                  input.select(); 
+              }
+            },
+            inputValidator: (value) => {
+              if (!value || value <= 0) {
+                  return 'Jumlah harus lebih dari 0';
+              }
+            }
+        }).then((result) => {
+            if (result.isConfirmed) {
+              const newQty = Number(result.value);
 
-            //set new value
-            const newNW = barang.nw * newQty;
-            const newVolume = barang.volume * newQty;
-            rowQty.textContent = newQty;
-            rowNW.textContent = `${newNW.toFixed(3)}`;
-            rowVolume.textContent = `${newVolume.toFixed(3)}`;
+              const oldQty = Number(rowQty.innerText);
+              const oldNw = Number(rowNW.innerText);
+              const oldVolume = Number(rowVolume.innerText);
 
-            //update all sum
-            sumAllCt -= oldQty;
-            sumAllCt += Number(newQty); 
-            sumAllNW -= oldNw;
-            sumAllNW += Number(newNW);
-            sumAllVolume -= oldVolume;
-            sumAllVolume += Number(newVolume);
+              const newNW = barang.nw * newQty;
+              const newVolume = barang.volume * newQty;
 
-            document.getElementById('total-ct').value = `${sumAllCt}`;
-            document.getElementById('total-nw').value = `${sumAllNW.toFixed(3)}`;
-            document.getElementById('total-volume').value = `${sumAllVolume.toFixed(3)}`;
-        }
+              rowQty.textContent = newQty;
+              rowNW.textContent = `${newNW.toFixed(3)}`;
+              rowVolume.textContent = `${newVolume.toFixed(3)}`;
+
+              sumAllCt = sumAllCt - oldQty + newQty;
+              sumAllNW = sumAllNW - oldNw + newNW;
+              sumAllVolume = sumAllVolume - oldVolume + newVolume;
+
+              document.getElementById('total-ct').value = `${sumAllCt}`;
+              document.getElementById('total-nw').value = `${sumAllNW.toFixed(3)}`;
+              document.getElementById('total-volume').value = `${sumAllVolume.toFixed(3)}`;
+            }
+        });
     };
+
+
     containerButton.appendChild(editButton);
 
     //delete
@@ -207,18 +239,45 @@ document.getElementById('po-form').addEventListener('submit', function(event) {
     deleteButton.classList.add(...clsDelete);
     deleteButton.style.minWidth = '100px';
     deleteButton.textContent = 'Hapus';
-    deleteButton.onclick = function() {
+    deleteButton.onclick = function () {
+        Swal.fire({
+            title: 'Yakin ingin menghapus item ini?',
+            text: 'Data akan dihapus dari daftar.',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Hapus',
+            cancelButtonText: 'Batal',
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+              // Ambil nilai dari baris
+              const qty = Number(rowQty.innerText);
+              const nw = Number(rowNW.innerText);
+              const volume = Number(rowVolume.innerText);
 
-        sumAllCt -= rowQty.innerText;
-        sumAllNW -= rowNW.innerText;
-        sumAllVolume -= rowVolume.innerText;
+              // Update total
+              sumAllCt -= qty;
+              sumAllNW -= nw;
+              sumAllVolume -= volume;
 
-        document.getElementById('total-ct').value = `${sumAllCt}`;
-        document.getElementById('total-nw').value = `${sumAllNW.toFixed(3)}`;
-        document.getElementById('total-volume').value = `${sumAllVolume.toFixed(3)}`;
+              document.getElementById('total-ct').value = `${sumAllCt}`;
+              document.getElementById('total-nw').value = `${sumAllNW.toFixed(3)}`;
+              document.getElementById('total-volume').value = `${sumAllVolume.toFixed(3)}`;
 
-        tableBody.removeChild(row);
+              // Hapus baris
+              tableBody.removeChild(row);
+
+              // Notifikasi sukses (opsional)
+              Swal.fire({
+                  icon: 'success',
+                  title: 'Berhasil dihapus',
+                  timer: 1000,
+                  showConfirmButton: false
+              });
+            }
+        });
     };
+
     containerButton.appendChild(deleteButton);
 
     row.appendChild(aksiCell);
@@ -304,48 +363,116 @@ document.getElementById('cetakPDF').addEventListener('click', function () {
 })
 
 //print All Item
-document.getElementById('catalog').addEventListener('click', function(){
+document.getElementById('catalog').addEventListener('click', async function () {
+  const result = await Swal.fire({
+    title: 'Download Katalog',
+    text: 'Pilih format file yang ingin diunduh:',
+    icon: 'question',
+    showCancelButton: true,
+    confirmButtonText: 'PDF',
+    cancelButtonText: 'Excel',
+    reverseButtons: true
+  });
+
+  // Data contoh (ganti dengan data asli Anda)
+  const headers = ['Material', 'SKU', 'Description', 'NW', 'Volume'];
+  const rows = barangJson.map(item => [
+    item.id,
+    item.sku,
+    item.desc,
+    item.nw.toFixed(3),
+    item.volume.toFixed(3)
+  ]);
+
+  if (result.isConfirmed) {
+    // ===== Cetak PDF pakai jsPDF =====
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    // Menambahkan judul
     doc.setFontSize(12);
     doc.text("Lists All Item", 14, 20);
-
-    // Menambahkan tabel dari data JSON
-    const startY = 30;
-    const margin = 10;
-
-    // Menambahkan header tabel
-    const headers = ['Material', 'SKU', 'Description', 'NW', 'Volume'];
-    const rows = barangJson.map(item => [item.id, item.sku, item.desc, item.nw.toFixed(3), item.volume.toFixed(3)]);
 
     doc.autoTable({
       head: [headers],
       body: rows,
-      startY: startY,
-      theme: 'grid', 
+      startY: 30,
+      theme: 'grid',
       styles: { fontSize: 8, cellPadding: 2 },
-      headStyles: { 
-            fillColor: [0, 123, 255], 
-            textColor: [255, 255, 255], 
-            fontSize: 12,
-            halign: 'center'
+      headStyles: {
+        fillColor: [0, 123, 255],
+        textColor: [255, 255, 255],
+        fontSize: 12,
+        halign: 'center'
       },
       bodyStyles: { fillColor: [240, 240, 240] },
       columnStyles: {
-        3: {
-            halign: 'right',
-        },
-        4: {
-            halign: 'right',
-        },
-        5: {
-            halign: 'right',
-        },
-    }
+        3: { halign: 'right' },
+        4: { halign: 'right' }
+      }
     });
 
-    // Menyimpan PDF
     doc.save("my-catalog.pdf");
-})
+
+  } else if (result.dismiss === Swal.DismissReason.cancel) {
+  // ========== ExcelJS versi styled ==========
+  const workbook = new ExcelJS.Workbook();
+  const sheet = workbook.addWorksheet("Katalog");
+
+  // Tambahkan header
+  const headers = ['Material', 'SKU', 'Description', 'NW', 'Volume'];
+  sheet.addRow(headers);
+
+  // Tambahkan data
+  barangJson.forEach(item => {
+    sheet.addRow([
+      item.id,
+      item.sku,
+      item.desc,
+      parseFloat(item.nw.toFixed(3)),
+      parseFloat(item.volume.toFixed(3))
+    ]);
+  });
+
+  // Styling header
+  const headerRow = sheet.getRow(1);
+  headerRow.eachCell(cell => {
+    cell.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+    cell.fill = {
+      type: 'pattern',
+      pattern: 'solid',
+      fgColor: { argb: '007BFF' } // Bootstrap Primary
+    };
+    cell.alignment = { horizontal: 'center' };
+    cell.border = {
+      top: { style: 'thin' },
+      bottom: { style: 'thin' }
+    };
+  });
+
+  // Rata kanan kolom NW dan Volume
+  sheet.getColumn(4).alignment = { horizontal: 'right' }; // NW
+  sheet.getColumn(5).alignment = { horizontal: 'right' }; // Volume
+
+  // Lebar kolom otomatis (atau manual)
+  sheet.columns.forEach(column => {
+    let maxLength = 10;
+    column.eachCell({ includeEmpty: true }, cell => {
+      const len = cell.value ? cell.value.toString().length : 0;
+      if (len > maxLength) maxLength = len;
+    });
+    column.width = maxLength + 2;
+  });
+
+  // Autofilter
+  sheet.autoFilter = {
+    from: 'A1',
+    to: 'E1'
+  };
+
+  // Simpan sebagai file Excel
+  workbook.xlsx.writeBuffer().then(buffer => {
+    const blob = new Blob([buffer], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" });
+    saveAs(blob, "my-catalog.xlsx");
+  });
+}
+});
